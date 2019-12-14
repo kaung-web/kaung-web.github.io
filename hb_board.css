@@ -1,0 +1,108 @@
+
+
+
+
+
+@font-face {
+  font-family: headerFont;
+  src: url(fonts/timenew.ttf);
+}
+@font-face{
+	font-family: tharlon;
+	src:url(fonts/myanmar.ttf);
+}
+*{
+	font-family: tharlon;
+	color: white;
+	z-index: 0;
+}
+body{
+	background-color  : rgba(0,0,0,.8);
+}
+#main_box{
+	height: 1000px;
+	width: 600px;
+	position: fixed;
+	background-color: rgb(202,31,123);
+	margin: 0;
+	box-sizing: border-box;
+}
+#header{
+	background-color:#4834d4;
+	width: 600px;
+	height: 57px;
+	margin:0;
+
+}
+
+#header img{
+	width: 55px;
+	display: inline-block;
+	border: 1px solid rgb(202,31,123);
+}
+h1{
+	display: inline-block;
+	font-size: 185%;
+	position: fixed;
+	margin-top: 8px;
+	margin-left: 77px;
+	letter-spacing: 1px;
+	font-family: headerFont;
+	font-weight: normal;
+}
+#general{
+	width: 300px;
+	height: 460px;
+	box-sizing: border-box;
+	border: 3px groove #FFFFee;
+	position: fixed;
+	margin-top: 27px;
+	margin-left: 10px;
+	padding: 3px;
+}
+
+#general h2, #general p{
+	font-size: 10px;
+	color: yellow;
+}
+
+
+ul li{
+	margin-left: -20px;
+	font-size: 12px;
+	font-weight: bolder;
+	line-height: 31px;
+}
+
+#why_hb{
+	width: 289px;
+	height: 555px;
+	background-color: white;
+	color: black;
+	font-size: 10px;
+	position: fixed;
+	left: 319px;
+	top: 66px;
+	box-sizing: border-box;
+	padding: 5px;
+	line-height: 17px;
+	padding-right: 0 !important;
+}
+#why_hb h2, #why_hb h3, #why_hb p{
+	color: black;
+	font-size: 10.5px;
+}
+#why_hb p{
+	text-indent: 13px;
+}
+h2{
+	text-decoration: underline;
+}
+#computer{
+	z-index: 9;
+	position: fixed;
+	width: 130px;
+	top: ;
+	left: 192px;
+	top: 385px;
+}
